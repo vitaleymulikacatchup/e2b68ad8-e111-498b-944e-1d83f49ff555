@@ -27,7 +27,7 @@ export default function Home() {
         <HowToBuy2D variant='simple' />
       </div>
       <div id="tokenomics" data-section="tokenomics">
-        <BigNumberTokenomics title="Tokenomics Overview" description="Explore our tokenomics structure and future plans." kpiItems={[{ value: '1M', description: 'Total Supply', longDescription: 'Total supply of tokens created.', icon: 'Users' }, { value: '100K', description: 'Tokens Held', longDescription: 'Number of tokens held by community.', icon: 'Shield' }, { value: '500K', description: 'Tokens Circulated', longDescription: 'Tokens currently in circulation.', icon: 'Chart' }]} />
+        <BigNumberTokenomics title="Tokenomics Overview" description="Explore our tokenomics structure and future plans." kpiItems={[{ value: '1M', description: 'Total Supply', longDescription: 'Total supply of tokens created.', icon: Shield }, { value: '100K', description: 'Tokens Held', longDescription: 'Number of tokens held by community.', icon: Shield }, { value: '500K', description: 'Tokens Circulated', longDescription: 'Tokens currently in circulation.', icon: Shield }]} />
       </div>
       <div id="footer" data-section="footer">
         <FooterBase
