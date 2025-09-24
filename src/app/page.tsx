@@ -1,6 +1,6 @@
 "use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
+import NavbarStyleApple from '@/components/navigation/NavbarStyleApple';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
@@ -27,7 +27,7 @@ export default function Home() {
         <HowToBuy2D variant='simple' />
       </div>
       <div id="tokenomics" data-section="tokenomics">
-        <BigNumberTokenomics title="Tokenomics Overview" description="Explore our tokenomics structure and future plans." kpiItems={[{ value: '1M', description: 'Total Supply', longDescription: 'Total supply of tokens created.', icon: `` }, { value: '100K', description: 'Tokens Held', longDescription: 'Number of tokens held by community.', icon: `` }, { value: '500K', description: 'Tokens Circulated', longDescription: 'Tokens currently in circulation.', icon: `` }]} />
+        <BigNumberTokenomics title="Tokenomics Overview" description="Explore our tokenomics structure and future plans." kpiItems={[{ value: '1M', description: 'Total Supply', longDescription: 'Total supply of tokens created.', icon: null }, { value: '100K', description: 'Tokens Held', longDescription: 'Number of tokens held by community.', icon: null }, { value: '500K', description: 'Tokens Circulated', longDescription: 'Tokens currently in circulation.', icon: null }]} />
       </div>
       <div id="footer" data-section="footer">
         <FooterBase
