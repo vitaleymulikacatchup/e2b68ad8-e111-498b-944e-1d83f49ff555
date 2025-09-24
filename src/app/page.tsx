@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -13,9 +13,8 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'How To Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]}
-          logoSrc='/images/logo.svg'
-          logoAlt='NovaFlow Logo'
-          brandName='NovaFlow'
+          logoSrc="/images/logo.svg"
+          brandName="NovaFlow"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -32,7 +31,7 @@ export default function Home() {
       </div>
       <div id="footer" data-section="footer">
         <FooterBase
-          logoSrc='/images/logo.svg'
+          logoSrc="/images/logo.svg"
           logoWidth={100}
           logoHeight={100}
           columns={[
